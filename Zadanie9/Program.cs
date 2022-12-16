@@ -17,5 +17,5 @@ else if (entNumber % number != 0)
     Console.Write("Введено число: ");
     Console.WriteLine(entNumber);
     Console.Write("Введенное число не кратно данному, остаток от деления составляет: ");
-    Console.WriteLine(entNumber / number);
+    Console.WriteLine(entNumber % number);
 }
